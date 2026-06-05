@@ -1,4 +1,4 @@
-# bp-xray-research
+# warped-disk-xray
 
 > **Data science toolkit for studying warped black hole accretion disks via X-ray polarization**
 

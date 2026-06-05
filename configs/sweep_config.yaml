@@ -1,0 +1,15 @@
+# configs/sweep_config.yaml
+# Gap 1: Parameter sweep settings
+
+mode: lhs              # 'lhs' (Latin Hypercube) or 'grid' (uniform grid)
+n_samples: 5000        # number of LHS samples
+n_per_dim: 6           # grid points per dimension (only for mode: grid)
+output: data/simulated/sweep_dataset.h5
+
+# Parameter bounds (override defaults in physics.py if needed)
+param_bounds:
+  spin:        [0.0,   0.998]
+  r_bp:        [3.0,   50.0]
+  beta:        [0.0,   45.0]
+  phi:         [0.0,   360.0]
+  inclination: [10.0,  85.0]

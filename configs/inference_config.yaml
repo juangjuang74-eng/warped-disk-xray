@@ -1,0 +1,18 @@
+# configs/inference_config.yaml
+# Gap 2: Bayesian inference settings
+
+emulator_path: results/models/emulator_best.pt
+output_dir: results/reports
+
+# MCMC settings (emcee)
+n_walkers: 32
+n_steps: 3000
+burnin: 500
+thin: 10
+
+# Noise model (observational uncertainty)
+sigma_pol_fraction: 0.5   # %
+sigma_pol_angle: 2.0       # degrees
+
+# SNR detection threshold analysis
+snr_grid: [5, 10, 20, 50, 100]

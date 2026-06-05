@@ -1,0 +1,13 @@
+# configs/emulator_config.yaml
+# Gap 5: Surrogate emulator training settings
+
+data_path: data/simulated/sweep_dataset.h5
+output_dir: results/models
+
+# Model architecture
+hidden_dims: [256, 512, 512, 256]
+
+# Training
+batch_size: 256
+epochs: 200
+lr: 0.001

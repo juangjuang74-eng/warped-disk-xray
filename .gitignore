@@ -1,0 +1,44 @@
+# ── Data (generate locally, never commit) ─────────────────────────────────────
+data/raw/
+data/simulated/
+data/processed/
+*.h5
+*.fits
+*.fit
+*.npy
+*.npz
+
+# ── Trained models ─────────────────────────────────────────────────────────────
+results/models/
+results/reports/
+*.pt
+*.pth
+*.ckpt
+
+# ── Python ─────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# ── Jupyter ────────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Environments ───────────────────────────────────────────────────────────────
+.env
+.venv
+env/
+venv/
+
+# ── OS ─────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── IDE ────────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp

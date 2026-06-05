@@ -95,8 +95,8 @@ bp-xray-research/
 ### 1. Setup
 
 ```bash
-git clone https://github.com/yourname/bp-xray-research.git
-cd bp-xray-research
+
+cd warped-disk-xray
 
 conda env create -f environment.yml
 conda activate bp-xray

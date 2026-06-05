@@ -187,7 +187,7 @@ dataset.h5
 
 ## Physical Background
 
-The **Bardeen-Petterson (BP) effect** arises when the black hole spin and accretion disk angular momenta are misaligned. General relativistic frame-dragging (Lense-Thirring precession) warps or breaks the disk at the **break radius r_BP**.
+The **Bardeen-Petters (BP)  ** arises when the black hole spin and accretion disk angular momenta are misaligned. General relativistic frame-dragging (Lense-Thirring precession) warps or breaks the disk at the **break radius r_BP**.
 
 Key parameters encoded in the X-ray polarization signal:
 
